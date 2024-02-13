@@ -1,6 +1,7 @@
 import { Canvas } from "@react-three/fiber";
 import { Suspense, useEffect, useRef, useState } from "react";
 
+// we can cahnge this by ai voice by umakants portfolio with music with mp3 file 
 import sakura from "../assets/sakura.mp3";
 import { HomeInfo, Loader} from "../components";
 import { soundoff, soundon } from "../assets/icons";
@@ -112,6 +113,18 @@ const Home = () => {
           className='w-10 h-10 cursor-pointer object-contain'
         />
       </div>
+
+// we have to implement this 
+      <div className='absolute bottom-2 right-2'>
+        <img
+          src={!isPlayingMusic ? soundoff : soundon}
+          alt='mycv'
+          onClick={() => setIsPlayingMusic(!isPlayingMusic)}
+          className='w-10 h-10 cursor-pointer object-contain'
+        />
+      </div>
+
+      
     </section>
   );
 };
