@@ -206,7 +206,7 @@ export const socialLinks = [
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com',
+        link: 'https://www.linkedin.com/in/umakant-shinde-22b834252/',
     }
 ];
 
