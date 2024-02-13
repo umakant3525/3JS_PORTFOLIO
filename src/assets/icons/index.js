@@ -26,8 +26,20 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import bootstrap  from './bootstrap.svg'
+import c from './c.svg'
+import cpp from './cpp.svg'
+import mysql from './mysql.svg'
+import php from './php.svg'
+import download from './download.svg'
 
 export {
+    download,
+    bootstrap,
+    c,
+    cpp,
+    mysql,
+    php,
     css,
     express,
     git,

@@ -32,11 +32,11 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
         <p className='font-medium text-center sm:text-xl'>
-          Done multiple projects and all .<br /> Curious about the impact?
+        Completed multiple projects,<br /> eager to know their impact?
         </p>
 
         <Link to='/projects' className='neo-brutalism-white neo-btn'>
-          Visit my portfoli 
+          Projects
           <img src={arrow} alt='arrow' className='w-4 h-4 object-contain' />
         </Link>
       </div>
@@ -47,7 +47,7 @@ const HomeInfo = ({ currentStage }) => {
     return (
       <div className='info-box'>
       <p className='font-medium sm:text-xl text-center'>
-        Need a project done or looking for a dev? <br/> I'm just a few keystrokes away
+      Need a project done or looking for a developer? <br /> I'm here, just a few clicks away!
       </p>
 
       <Link to='/contact' className='neo-brutalism-white neo-btn'>

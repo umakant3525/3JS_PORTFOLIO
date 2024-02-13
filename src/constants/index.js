@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { it_tech , acm, supereasy, elite, gdsc } from "../assets/images";
 import {
     car,
     contact,
@@ -11,31 +11,83 @@ import {
     javascript,
     linkedin,
     mongodb,
-    motion,
-    mui,
     nextjs,
     nodejs,
     pricewise,
     react,
     redux,
-    sass,
     snapgram,
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    bootstrap,
+    c,
+    cpp,
+    mysql,
+    php
 } from "../assets/icons";
 
 export const skills = [
+    {
+        imageUrl: html,
+        name: "HTML",
+        type: "Frontend",
+    },
     {
         imageUrl: css,
         name: "CSS",
         type: "Frontend",
     },
     {
+        imageUrl: bootstrap,
+        name: "Bootstrap",
+        type: "Frontend",
+    },
+    {
+        imageUrl: tailwindcss,
+        name: "Tailwind CSS",
+        type: "Frontend",
+    },
+    {
+        imageUrl: javascript,
+        name: "JavaScript",
+        type: "Frontend",
+    },
+    {
+        imageUrl: react,
+        name: "React",
+        type: "Frontend",
+    },
+    // {
+    //     imageUrl: typescript,
+    //     name: "TypeScript",
+    //     type: "Frontend",
+    // },
+    // {
+    //     imageUrl: nextjs,
+    //     name: "Nextjs",
+    //     type: "Full stack",
+    // },
+    {
         imageUrl: express,
         name: "Express",
         type: "Backend",
+    },
+    {
+        imageUrl: nodejs,
+        name: "Node.js",
+        type: "Backend",
+    },
+    {
+        imageUrl: mysql,
+        name: "Mysql",
+        type: "Database",
+    },
+    {
+        imageUrl: mongodb,
+        name: "MongoDB",
+        type: "Database",
     },
     {
         imageUrl: git,
@@ -48,121 +100,97 @@ export const skills = [
         type: "Version Control",
     },
     {
-        imageUrl: html,
-        name: "HTML",
-        type: "Frontend",
-    },
-    {
-        imageUrl: javascript,
-        name: "JavaScript",
-        type: "Frontend",
-    },
-    {
-        imageUrl: mongodb,
-        name: "MongoDB",
-        type: "Database",
-    },
-    {
-        imageUrl: motion,
-        name: "Motion",
-        type: "Animation",
-    },
-    {
-        imageUrl: mui,
-        name: "Material-UI",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nextjs,
-        name: "Next.js",
-        type: "Frontend",
-    },
-    {
-        imageUrl: nodejs,
-        name: "Node.js",
-        type: "Backend",
-    },
-    {
-        imageUrl: react,
-        name: "React",
-        type: "Frontend",
-    },
-    {
         imageUrl: redux,
         name: "Redux",
         type: "State Management",
     },
     {
-        imageUrl: sass,
-        name: "Sass",
-        type: "Frontend",
+        imageUrl: php,
+        name: "Php",
+        type: "Language",
     },
     {
-        imageUrl: tailwindcss,
-        name: "Tailwind CSS",
-        type: "Frontend",
+        imageUrl: c,
+        name: "C",
+        type: "Language",
     },
     {
-        imageUrl: typescript,
-        name: "TypeScript",
-        type: "Frontend",
-    }
+        imageUrl: cpp,
+        name: "Cpp",
+        type: "Language",
+    },
+
 ];
+
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        title: "INTERN",
+        company_name: "SuperEasy Technologies LLP, Pune",
+        icon: supereasy,
+        iconBg: "#a2d2ff"  ,
+        date: "Dec 2023 - Jan 2024",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+            "Developed web applications using React.js and related technologies.",
+            "Collaborated with cross-functional teams to create high-quality products.",
+            "Ensured responsive design and cross-browser compatibility.",
+            "Participated in code reviews and provided constructive feedback."
+        ]
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "WEBMASTER",
+        company_name: "ACM MMCOE, Pune",
+        icon: acm,
+        iconBg:  "#accbe1",
+        date: "Jun 2023 - Present",
+        points: [
+            "Developed and maintained club website with focus on user experience.",
+            "Engaged in technical and social aspects, contributing to the community.",
+            "Improved online presence and attracted wider audience.",
+            "Organized technical and social events, fostering knowledge sharing."
+        ]
+    },
+    {
+        title: "DEVELOPMENT HEAD",
+        company_name: "",
+        icon:  it_tech,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "Jun 2023 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+            "Led development team with friendly nature .",
+            "Conducted sessions on web development with React.js.",
+            "Assisted team members in solving development challenges.",
+            "Fostered collaborative work environments."
+        ]
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        title: "DEVELOPMENT TEAM MEMBER",
+        company_name: "GDSC MMCOE, Pune",
+        icon: gdsc,
+        iconBg: "hsl(43.25deg 96.75% 37.3%)",
+        date: "Jun 2023 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
+            "Actively contributed as team member.",
+            "Led session on Kotlin Android development.",
+            "Worked collaboratively on various projects.",
+            "Prepared to lead web development workshops."
+        ]
     },
     {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
+        title: "INTERN & TRAINING",
+        company_name: "Elite Softwares, Pune",
+        icon: elite,
+        iconBg: "hsl(103.37deg 94.46% 64.12%)",
+        date: "Dec 2022 - March 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+            "Worked as intern, provided training by team leader and supervisor.",
+            "Focused on Django, PHP, Bootstrap tech stack.",
+            "Structured internship like a course.",
+            "Focused on learning and practical application."
+        ]
+    }
 ];
+
 
 export const socialLinks = [
     {
@@ -173,56 +201,57 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/umakant3525',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com',
     }
 ];
+
 
 export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'Bootstrap Page Clone',
+        description: 'Developed a web app in normal HTML, CSS, and JavaScript for learning and improving my frontend skills.',
+        link: 'https://umakant3525.github.io/bootstrap_page_clone/',
     },
     {
         iconUrl: threads,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: '3D GSAP Page',
+        description: 'Learning and exploring 3D animation with GSAP library through tutorials on SheriJS YouTube channel.',
+        link: 'https://umakant3525.github.io/3dweb_gsap/',
     },
     {
         iconUrl: car,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'Disney Clone in React',
+        description: 'Made Disney clone for React basic learning purposes to improve my React skills.',
+        link: 'https://disey-clone-fgsi2d2nb-umakant-shindes-projects.vercel.app/',
     },
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'Youtube Clone',
+        description: 'Made YouTube clone for frontend skill improvement using simple HTML, CSS, and JavaScript, with a toggle sidebar.',
+        link: 'https://umakant3525.github.io/youtube_clone/',
     },
     {
         iconUrl: estate,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'Chatboat with ChatGPT',
+        description: 'Made chatbot with ChatGPT API integration. Currently, the tokens are limited, so it may not respond, but the functionality is working well.',
+        link: 'https://umakant3525.github.io/chatbot_api/',
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        name: 'My First Portfolio',
+        description: 'I made this portfolio in HTML, CSS, and JavaScript, showcasing my skills in color and theme changing. This is my first portfolio.',
+        link: 'https://umakant3525.github.io/portfolio_1/',
     }
 ];

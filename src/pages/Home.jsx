@@ -105,7 +105,7 @@ const Home = () => {
         </Suspense>
       </Canvas>
 
-      <div className='absolute bottom-2 left-2'>
+      <div className='absolute bottom-4 left-4'>
         <img
           src={!isPlayingMusic ? soundoff : soundon}
           alt='jukebox'
@@ -113,17 +113,6 @@ const Home = () => {
           className='w-10 h-10 cursor-pointer object-contain'
         />
       </div>
-
-// we have to implement this 
-      <div className='absolute bottom-2 right-2'>
-        <img
-          src={!isPlayingMusic ? soundoff : soundon}
-          alt='mycv'
-          onClick={() => setIsPlayingMusic(!isPlayingMusic)}
-          className='w-10 h-10 cursor-pointer object-contain'
-        />
-      </div>
-
       
     </section>
   );

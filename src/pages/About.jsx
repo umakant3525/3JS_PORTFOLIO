@@ -22,8 +22,7 @@ const About = () => {
 
       <div className="mt-5 flex flex-col gap-3 text-slate-500">
         <p>
-          Software Engineer based in Croatia, specializing in technical
-          education through hands-on learning and building applications.
+         I am a skilled software engineer based in India 🇮🇳, dedicated to technical education through practical learning and application development. With versatile technical abilities, I excel in crafting innovative solutions.
         </p>
       </div>
 
@@ -50,8 +49,7 @@ const About = () => {
         <h3 className="subhead-text">Work Experience.</h3>
         <div className="mt-5 flex flex-col gap-3 text-slate-500">
           <p>
-            I've worked with all sorts of companies, leveling up my skills and
-            teaming up with smart people. Here's the rundown:
+          Throughout my academic journey, I have actively participated in a myriad of projects and worked closely with diverse clubs, contributing to both social and technical initiatives. These experiences have not only broadened my skills but also enriched my understanding of teamwork and leadership. Moreover, my internships have provided me with practical insights and hands-on experience, further solidifying my passion for continuous learning and growth.
           </p>
         </div>
 
@@ -67,7 +65,7 @@ const About = () => {
                     <img
                       src={experience.icon}
                       alt={experience.company_name}
-                      className="w-[60%] h-[60%] object-contain"
+                      className="w-[80%] h-[80%] object-contain"
                     />
                   </div>
                 }
@@ -109,11 +107,6 @@ const About = () => {
       <hr className="border-slate-200" />
 
       <CTA />
-
-      <hr className="border-slate-200" />
-
-<CTA />
-
     </section>
   );
 };
