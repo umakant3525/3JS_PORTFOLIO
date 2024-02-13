@@ -1,8 +1,14 @@
-# React + Vite
+# Umakant's Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Umakant's personal portfolio project showcasing skills learned with React, Three.js, and EmailJS.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Built with React and Three.js for animations.
+- Utilizes EmailJS for easy email functionality.
+- Responsive design using Tailwind CSS.
+- Includes a vertical timeline component.
+
+## Demo
+
+Check out the live demo [here](https://umakant3525.netlify.app/).
