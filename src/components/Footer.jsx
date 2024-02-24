@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { socialLinks } from "../constants";
 import { download } from "../assets/icons";
-import UmakantShindeCV from "../assets/Umakant_Shinde_CV.pdf";
+import UmakantShindeCV from "../assets/umakantshinderesume.pdf" ;
 
 const Footer = () => {
   return (
